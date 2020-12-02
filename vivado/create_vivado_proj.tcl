@@ -23,40 +23,40 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "/home/mseker/project_1/project_1.srcs/sources_1/ip/char_fifo/char_fifo.xci"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/ip/clk_core/clk_core.xci"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/clk_div.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/clk_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/clogb2.vh"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/clkx_bus.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/cmd_parse.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/dac_spi.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/debouncer.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/lb_ctl.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/meta_harden.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/out_ddr_flop.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/reset_bridge.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/resp_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/rst_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/samp_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/samp_ram.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/to_bcd.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/uart_baud_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx_ctl.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx_ctl.v"
-#    "/home/mseker/project_1/project_1.srcs/sources_1/imports/Sources/kintex7/wave_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc"
-#    "/home/mseker/project_1/project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_pins.xdc"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_cmd_gen.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_fifo.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_ram.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_resetgen.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_resp_checker.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_uart_driver.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_uart_monitor.v"
-#    "/home/mseker/project_1/project_1.srcs/sim_1/imports/tb/tb_wave_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/ip/char_fifo/char_fifo.xci"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/ip/clk_core/clk_core.xci"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/clk_div.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/clk_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/clogb2.vh"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/clkx_bus.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/cmd_parse.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/dac_spi.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/debouncer.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/lb_ctl.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/meta_harden.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/out_ddr_flop.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/reset_bridge.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/resp_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/rst_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/samp_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/samp_ram.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/to_bcd.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_baud_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx_ctl.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx_ctl.v"
+#    "/home/mseker/project_1/../project_1.srcs/sources_1/imports/Sources/kintex7/wave_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc"
+#    "/home/mseker/project_1/../project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_pins.xdc"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_cmd_gen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_fifo.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_ram.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_resetgen.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_resp_checker.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_uart_driver.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_uart_monitor.v"
+#    "/home/mseker/project_1/../project_1.srcs/sim_1/imports/tb/tb_wave_gen.v"
 #
 # 3. The following remote source files that were added to the original project:-
 #
@@ -132,7 +132,7 @@ if { $::argc > 0 } {
 set orig_proj_dir "[file normalize "$origin_dir/../"]"
 
 # Create project
-create_project ${_xil_proj_name_} -part xc7k70tfbg676-1
+create_project ${_xil_proj_name_} $orig_proj_dir -part xc7k70tfbg676-1
 
 # Set the directory path for the new project
 set proj_dir [get_property directory [current_project]]
@@ -160,32 +160,32 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 set obj [get_filesets sources_1]
 # Import local files from the original project
 set files [list \
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/ip/char_fifo/char_fifo.xci" ]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/ip/clk_core/clk_core.xci" ]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/clk_div.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/clk_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/clogb2.vh"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/clkx_bus.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/cmd_parse.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/dac_spi.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/debouncer.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/lb_ctl.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/meta_harden.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/out_ddr_flop.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/reset_bridge.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/resp_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/rst_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/samp_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/samp_ram.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/to_bcd.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_baud_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx_ctl.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx_ctl.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sources_1/imports/Sources/kintex7/wave_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/ip/char_fifo/char_fifo.xci" ]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/ip/clk_core/clk_core.xci" ]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/clk_div.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/clk_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/clogb2.vh"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/clkx_bus.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/cmd_parse.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/dac_spi.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/debouncer.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/lb_ctl.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/meta_harden.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/out_ddr_flop.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/reset_bridge.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/resp_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/rst_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/samp_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/samp_ram.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/to_bcd.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/uart_baud_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/uart_rx_ctl.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/uart_tx_ctl.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sources_1/imports/Sources/kintex7/wave_gen.v"]\
 ]
-set imported_files [import_files -fileset sources_1 $files]
+set imported_files [add_files -fileset sources_1 $files]
 
 # Set 'sources_1' fileset file properties for remote files
 # None
@@ -225,24 +225,24 @@ if {[string equal [get_filesets -quiet constrs_1] ""]} {
 set obj [get_filesets constrs_1]
 
 # Add/Import constrs file and set constrs file properties
-set file "[file normalize ${origin_dir}/../project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc]"
-set file_imported [import_files -fileset constrs_1 [list $file]]
+set file "[file normalize ${origin_dir}/project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc]"
+set file_imported [add_files -fileset constrs_1 [list $file]]
 set file "xc7k70tfbg676-1/wave_gen_timing.xdc"
 set file_obj [get_files -of_objects [get_filesets constrs_1] [list "*$file"]]
 set_property -name "file_type" -value "XDC" -objects $file_obj
 
 # Add/Import constrs file and set constrs file properties
-set file "[file normalize ${origin_dir}/../project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_pins.xdc]"
-set file_imported [import_files -fileset constrs_1 [list $file]]
+set file "[file normalize ${origin_dir}/project_1.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_pins.xdc]"
+set file_imported [add_files -fileset constrs_1 [list $file]]
 set file "xc7k70tfbg676-1/wave_gen_pins.xdc"
 set file_obj [get_files -of_objects [get_filesets constrs_1] [list "*$file"]]
 set_property -name "file_type" -value "XDC" -objects $file_obj
 
 # Set 'constrs_1' fileset properties
 set obj [get_filesets constrs_1]
-set_property -name "target_constrs_file" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc" -objects $obj
+set_property -name "target_constrs_file" -value "$origin_dir/${_xil_proj_name_}.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc" -objects $obj
 set_property -name "target_part" -value "xc7k70tfbg676-1" -objects $obj
-set_property -name "target_ucf" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc" -objects $obj
+set_property -name "target_ucf" -value "$origin_dir/${_xil_proj_name_}.srcs/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc" -objects $obj
 
 # Create 'sim_1' fileset (if not found)
 if {[string equal [get_filesets -quiet sim_1] ""]} {
@@ -253,16 +253,16 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 set obj [get_filesets sim_1]
 # Import local files from the original project
 set files [list \
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_cmd_gen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_fifo.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_ram.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_resetgen.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_resp_checker.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_uart_driver.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_uart_monitor.v"]\
- [file normalize "${origin_dir}/../project_1.srcs/sim_1/imports/tb/tb_wave_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_cmd_gen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_fifo.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_ram.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_resetgen.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_resp_checker.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_uart_driver.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_uart_monitor.v"]\
+ [file normalize "${origin_dir}/project_1.srcs/sim_1/imports/tb/tb_wave_gen.v"]\
 ]
-set imported_files [import_files -fileset sim_1 $files]
+set imported_files [add_files -fileset sim_1 $files]
 
 # Set 'sim_1' fileset file properties for remote files
 # None
@@ -576,3 +576,4 @@ move_dashboard_gadget -name {drc_1} -row 2 -col 0
 move_dashboard_gadget -name {timing_1} -row 0 -col 1
 move_dashboard_gadget -name {utilization_2} -row 1 -col 1
 move_dashboard_gadget -name {methodology_1} -row 2 -col 1
+
