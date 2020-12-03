@@ -39,25 +39,6 @@ pipeline {
         sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source generate_bitstream.tcl'
       }
     }
-    stage('Release bitfile') {
-      steps {
-        sh ''' source /tools/Xilinx/Vivado/2019.2/settings64.sh && 
-        PROJ_NAME=projec_1
-        RELEASE_DIR=/usr/share/nginx/html/releases/
-        BASE_NAME=$PROJ_NAME-`date +"%Y-%m-%d-%H-%H:%M"`
-        BITFILE=$BASE_NAME.bit
-        INFOFILE=$BASE_NAME.txt
-        git log -n 1 --pretty=format:"%H" >> $INFOFILE
-        echo -n " $PROJ_NAME " >> $INFOFILE
-        git describe --all >> $INFOFILE
-        echo "" >> $INFOFILE
-        echo "Submodules:" >> $INFOFILE
-        git submodule status >> $INFOFILE
-        cp $INFOFILE $RELEASE_DIR
-        cp vivado/project_1.runs/impl_1/top.bit $RELEASE_DIR/$BITFILE
-        '''
-      }
-    }
   }
   post {
     failure {
