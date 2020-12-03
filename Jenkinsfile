@@ -16,6 +16,7 @@ pipeline {
           submoduleCfg: [],
           userRemoteConfigs: [[
             url: 'https://github.com/mseker94/project_1']]])
+      sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh'
       sh 'cd vivado && vivado -mode batch -source create_vivado_proj.tcl'
       }
     }
