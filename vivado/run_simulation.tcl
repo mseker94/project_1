@@ -13,9 +13,9 @@ set sim_fileset sim_1
 
 launch_simulation -simset [get_filesets $sim_fileset]
 close_sim
-pwd
+cd ..
 # Look for assertion failures in the simulation log
-set log_file [glob *../project_1.sim/$sim_fileset/behav/xsim/simulate.log]
+set log_file [glob *project_1.sim/$sim_fileset/behav/xsim/simulate.log]
 set fp [open $log_file]
 set file_data [read $fp]
 exit [regex "Failure:" $file_data]
