@@ -16,32 +16,32 @@ pipeline {
           submoduleCfg: [],
           userRemoteConfigs: [[
             url: 'https://github.com/mseker94/project_1']]])
-      sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && pwd && dir && vivado -mode batch -source create_vivado_proj.tcl'
+      sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source create_vivado_proj.tcl'
       }
     }
     stage('Run simulation') {
       steps {
-        sh 'cd vivado && vivado -mode batch -source run_simulation.tcl'
+        sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source run_simulation.tcl'
       }
     }
     stage('Run synthesis') {
       steps {
-        sh 'cd vivado && vivado -mode batch -source run_synthesis.tcl'
+        sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source run_synthesis.tcl'
       }
     }
     stage('Run implementation') {
       steps {
-        sh 'cd vivado && vivado -mode batch -source run_implementation.tcl'
+        sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source run_implementation.tcl'
       }
     }
     stage('Generate bitstream') {
       steps {
-        sh 'cd vivado && vivado -mode batch -source generate_bitstream.tcl'
+        sh 'source /tools/Xilinx/Vivado/2019.2/settings64.sh && cd vivado && vivado -mode batch -source generate_bitstream.tcl'
       }
     }
     stage('Release bitfile') {
       steps {
-        sh '''
+        sh ''' source /tools/Xilinx/Vivado/2019.2/settings64.sh && 
         PROJ_NAME=projec_1
         RELEASE_DIR=/usr/share/nginx/html/releases/
         BASE_NAME=$PROJ_NAME-`date +"%Y-%m-%d-%H-%H:%M"`
